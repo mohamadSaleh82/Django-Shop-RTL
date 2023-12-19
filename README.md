@@ -50,7 +50,8 @@ Get ready to revolutionize your online business with the dynamic duo of Python a
 
 ## Screenshots 📸
 
-[Insert Screenshots or Demo Link Here]
+![Screenshot 1](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/1.png)
+![Screenshot 2](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/2.png)
 
 ## Getting Started 🚀
 
