@@ -58,7 +58,7 @@ Get ready to revolutionize your online business with the dynamic duo of Python a
 ![Screenshot 5](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/6.png)
 ![Screenshot 6](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/7.png)
 
-## Getting Started 🚀
+# Getting Started 🚀
 
 ## How to Run the Application
 
