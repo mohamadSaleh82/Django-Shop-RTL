@@ -49,11 +49,11 @@ Get ready to revolutionize your online business with the dynamic duo of Python a
 - 🌐 **Endless Possibilities**: The combination of Python, Django, and Bootstrap opens up a world of possibilities for your online store. Whether you're an experienced developer or just starting out, create a store that stands out from the competition!
 
 # Screenshots 📸
-## user
+## user👨‍💼
 ![Screenshot 1](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/1.png)
 ![Screenshot 2](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/2.png)
 ![Screenshot 3](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/4.png)
-## manager
+## manager👨‍💻
 ![Screenshot 4](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/5.png)
 ![Screenshot 5](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/6.png)
 ![Screenshot 6](https://raw.githubusercontent.com/mohamadsaleh82/Django-Shop-RTL/master/Demo/7.png)
