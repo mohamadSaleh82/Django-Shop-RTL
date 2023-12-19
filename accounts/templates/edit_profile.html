@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="col-md-6" dir="rtl">
+        <form method="POST">
+            {% csrf_token %}
+            <h3>ویرایش پروفایل</h3>
+            <hr>
+            {{ form|crispy  }}
+            <div class="form-group">
+                <button class="btn btn-primary mt-3 w-100" type="submit">آپدیت</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}

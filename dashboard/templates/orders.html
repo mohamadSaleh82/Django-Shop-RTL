@@ -1,0 +1,34 @@
+{% extends "dashboard.html" %}
+{% block content %}
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">کاربر</th>
+        <th scope="col">آیدی</th>
+        <th scope="col">قیمت کل</th>
+        <th scope="col">وضعیت</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    {% for order in orders %}
+    <tbody>
+      <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ order.user.full_name }}</td>
+        <td>{{ order.id }}</td>
+        <td>{{ order.get_total_price }}   تومان</td>
+        {% if order.status %}
+            <td class="text-success">موفق</td>
+        {% else %}
+            <td class="text-danger">کنسل شده</td>
+        {% endif %}
+        <td><a href="{% url 'dashboard:order_detail' order.id %}" class="text-primary text-decoration-none">مشخصات</a></td>
+      </tr>
+    </tbody>
+    {% endfor %}
+  </table>
+  
+
+{% endblock %}
+

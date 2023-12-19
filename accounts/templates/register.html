@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="col-md-6 text-right h-100 justify-content-center align-items-center" dir="rtl" >
+        <form method="POST">
+            {% csrf_token %}
+            <h3>ثبت نام</h3>
+            <hr>
+            {{ form|crispy }}
+            <div class="form-group">
+                <button class="btn btn-primary w-100 mt-2" type="submit">ثبت نام</button>
+            </div>
+        </form>
+        <div class="mt-3">
+            <small class="text-muted">
+                قبلا ثبت نام کرده اید ؟ <a href="{% url 'accounts:user_login' %}">ورود</a>
+            </small>
+        </div>
+    </div>
+{% endblock %}
